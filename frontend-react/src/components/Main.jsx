@@ -4,13 +4,17 @@ import Button from './Button'
 const Main = () => {
   return (
     <>
-    <div className='container'>
+      
+
+      <div className='container'>
         <div className='p-5 text-center bg-light-dark'>
-            <h1 className='text-light'>Stock Prediction Portal</h1>
-            <p className='text-light lead'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem aut alias amet officiis harum consectetur fugit architecto! Sequi consectetur laborum doloribus architecto eligendi! Placeat vitae aspernatur incidunt laborum, ullam iste.</p>
-             <Button text="Login" class="btn-outline-info"  />
+          <h1 className='text-light'>Stock Prediction Portal</h1>
+          <p className='text-light lead'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem aut alias amet officiis harum consectetur fugit architecto! Sequi consectetur laborum doloribus architecto eligendi! Placeat vitae aspernatur incidunt laborum, ullam iste.</p>
+          <Button text="Login" class="btn-outline-info" url="/login"/>
         </div>
-    </div>
+      </div>
+
+      
     </>
   )
 }
